@@ -1,12 +1,7 @@
-const myName = 'Laura'
-const myCity = 'Gangkofen'
+let newVariable = 'Playing around with typeof.';
 
-console.log(`My name is $ {
-        myName
-    }
+console.log(typeof newVariable)
 
-    . My favorite city is $ {
-        myCity
-    }
+newVariable = 1
 
-    `)
+console.log(typeof newVariable)
